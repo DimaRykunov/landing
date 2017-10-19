@@ -1,0 +1,50 @@
+@import "../bourbon/bourbon"
+
+$color: #FF6347 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p
+	color: $text_color
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+.main_color_bg
+	background-color: $main_color
+.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+  height:		  100%
+  left: 			0
+  position: 	fixed
+  right:			0
+  top: 				0
+  width: 			100%
+  z-index: 		9999
+.loader_inner
+	background-image: url("../img/load.gif")
+	background-repeat: no-repeat
+	background-position: center center
+	height: 60px
+	width: 60px
+	margin-top: -30px
+	margin-left: -30px
+	left: 50%
+	top: 50%
+	background-color: #fff
+	position: absolute
