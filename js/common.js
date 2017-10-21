@@ -7,6 +7,21 @@ $(document).ready(function() {
 		heightDetect();
 	});
 
+	$(".sandwich, .menu_item").click(function() {
+	  $(".sandwich").toggleClass("active");
+	});
+
+	$(".toggle_menu").click(function(){
+		if ($(".top_menu").is(":visible")) {
+			$(".top_menu").fadeOut(600);
+		}
+		else {
+			$(".top_menu").fadeIn(600);
+		}
+
+		// $(".top_menu:visible").fadeOut(600);
+	});
+
 });
 $(window).on('load', function(){
 $('.loader_inner').fadeOut();

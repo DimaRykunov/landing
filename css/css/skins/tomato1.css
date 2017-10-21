@@ -1,0 +1,33 @@
+/*
+Error: Invalid CSS after "...ourbon/bourbon"": expected selector or at-rule, was "$color: #FF6347..."
+        on line 3 of D:\github\landing\css\sass\skins\tomato1.scss
+
+1: @import "../bourbon/bourbon"
+2: 
+3: $color: #FF6347 //Theme skin
+4: $text_color: #888
+5: $main_color: #222
+6: $bg_light: #FAFAFA
+7: 
+8: @mixin kerning($kerning)
+
+Backtrace:
+D:\github\landing\css\sass\skins\tomato1.scss:3
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1207:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:1137:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:406:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.4.23/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:18:in `load'
+C:/Program Files (x86)/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ourbon/bourbon\"\": expected selector or at-rule, was \"$color: #FF6347...\"\A         on line 3 of D:\github\landing\css\sass\skins\tomato1.scss\A \A 1: @import \"../bourbon/bourbon\"\A 2: \A 3: $color: #FF6347 //Theme skin\A 4: $text_color: #888\A 5: $main_color: #222\A 6: $bg_light: #FAFAFA\A 7: \A 8: @mixin kerning($kerning)"; }

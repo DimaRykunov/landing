@@ -17,3 +17,46 @@ body textarea:required:valid {
 
 .hidden {
   display: none; }
+
+.section,
+.main_head {
+  position: relative; }
+
+.main_head {
+  min-height: 620px;
+  padding-top: 20px; }
+
+.loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  .loader .loader_inner {
+    background-image: url("../../img/preloader.gif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    position: absolute; }
+
+.logo_container {
+  float: left; }
+
+.toggle_menu {
+  width: 60px;
+  height: 60px;
+  float: right;
+  position: relative;
+  z-index: 100; }
+
+/*# sourceMappingURL=main.css.map */
