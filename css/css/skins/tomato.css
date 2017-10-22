@@ -20,19 +20,23 @@ p {
 .main_color_bg {
   background-color: #222; }
 
-path {
-  fill: #222; }
+svg path {
+  fill: rgba(255, 255, 255, 0.6); }
 
 .toggle_menu {
-  background: #222; }
+  background: rgba(0, 0, 0, 0.7); }
 
 .top_menu a {
   color: #fff; }
 
 .top_menu a:hover {
-  color: #FF6347;
-  background-color: rgba(255, 255, 255, 0.05); }
+  color: #FF6347; }
 .top_menu a {
   letter-spacing: 4px; }
+
+.top_text h1 {
+  color: #fff; }
+.top_text p {
+  color: #FAFAFA; }
 
 /*# sourceMappingURL=tomato.css.map */

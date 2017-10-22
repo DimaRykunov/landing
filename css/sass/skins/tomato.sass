@@ -26,19 +26,22 @@ p
 	border-color: $color
 .main_color_bg
 	background-color: $main_color
-path
-	fill: $main_color
+svg
+	path
+		fill: rgba(255,255,255,.6)
 .toggle_menu
-	background: $main_color
+	background: rgba(0,0,0,.7)
 
 .top_menu
 	a
 		color: #fff
-
 .top_menu
 	a:hover
 		color: $color
-
-		background-color: rgba(255, 255, 255, .05)
 	a
 		+kerning(4)
+.top_text
+	h1
+		color: #fff
+	p
+		color: $bg_light

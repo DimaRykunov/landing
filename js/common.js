@@ -13,14 +13,21 @@ $(document).ready(function() {
 
 	$(".toggle_menu").click(function(){
 		if ($(".top_menu").is(":visible")) {
+			$(".top_text").removeClass("h_opacify");
 			$(".top_menu").fadeOut(600);
+			$(".top_menu li a").removeClass("fadeInUp animated");
 		}
 		else {
+			$(".top_text").addClass("h_opacify");
 			$(".top_menu").fadeIn(600);
+			$(".top_menu li a").addClass("fadeInUp animated");
 		}
-
-		// $(".top_menu:visible").fadeOut(600);
 	});
+
+	$(".top_menu ul a").click(function(){
+		$(".top_menu").fadeOut(600);
+		$(".sandwich").toggleClass("active");
+	}).append("<span>");
 
 });
 $(window).on('load', function(){
