@@ -5,7 +5,8 @@ body {
 a {
   color: #FF6347; }
 
-p {
+p,
+body .main_footer {
   color: #888; }
 
 .color_element {
@@ -21,7 +22,12 @@ p {
   background-color: #FAFAFA; }
 
 .bg_dark {
-  background-color: #222; }
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
 
 svg path {
   fill: rgba(255, 255, 255, 0.6); }
@@ -41,5 +47,10 @@ svg path {
   color: #fff; }
 .top_text p {
   color: #FAFAFA; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
 
 /*# sourceMappingURL=tomato.css.map */

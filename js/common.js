@@ -27,7 +27,8 @@ $(document).ready(function() {
 	$(".top_menu ul a").click(function(){
 		$(".top_menu").fadeOut(600);
 		$(".sandwich").toggleClass("active");
-	}).append("<span>");
+		$(".top_text").removeClass("h_opacify");
+	});
 
 });
 $(window).on('load', function(){

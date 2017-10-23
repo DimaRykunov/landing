@@ -9,8 +9,8 @@ body
 	line-height: 1.42857
 	-webkit-font-smoothing: antialised
 	overflow-x: hidden !important
-	width: 102%
-	height: 102%
+	width: 100%
+	height: 100%
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid
@@ -26,8 +26,31 @@ body textarea:required:valid
 .main_head
 	position: relative
 
-.main_head
+section
+	padding: 70px 0 80px
+	h2
+		text-align: center
+		font-size: 24px
+		text-transform: uppercase
+		margin: 0 0 15px
 
+.s_descr_wrap
+	text-align: center
+	.s_descr
+		display: inline-block
+		text-transform: uppercase
+		font-size: 12px
+		position: relative
+		margin-bottom: 130px
+		&::after
+			content: ""
+			width: 150px
+			height: 1px
+			position: absolute
+			left: 50%
+			margin-left: -75px
+			margin-top: 70px
+.main_head
 	min-height: 620px
 	padding-top: 20px
 
@@ -187,9 +210,14 @@ ul
 			font-weight: 300
 			letter-spacing: 10px
 			font-size: 3.5em
-			box-shadow: rgba(0,0,0,.3) 0 0 0 1000px
+			// box-shadow: rgba(0,0,0,.3) 0 0 0 1000px
 		p
 			margin-top: -5px
 .h_opacify
 	opacity: .3
 	+transition(all .25 ease)
+
+.main_footer
+	padding: 50px 0
+	font-size: 13px
+	font-weight: 400

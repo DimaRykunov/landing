@@ -15,7 +15,8 @@ body
 a
 	color: $color
 
-p
+p,
+body .main_footer
 	color: $text_color
 
 .color_element
@@ -24,8 +25,15 @@ p
 	background-color: $color
 .color_border
 	border-color: $color
-.main_color_bg
+.bg_light
+	background-color: $bg_light
+.bg_dark
 	background-color: $main_color
+	color: #fff
+	.s_descr::after
+		background-color: #fff
+	a
+		color: #fff
 svg
 	path
 		fill: rgba(255,255,255,.6)
@@ -45,3 +53,8 @@ svg
 		color: #fff
 	p
 		color: $bg_light
+
+.s_descr
+	+kerning(5)
+	&::after
+		background-color: $main_color
