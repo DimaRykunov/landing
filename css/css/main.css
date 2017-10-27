@@ -172,7 +172,24 @@ li {
 ul {
   margin-top: 180px;
   text-align: center; }
+  ul li:nth-child(1) a {
+    -webkit-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s; }
+  ul li:nth-child(2) a {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-duration: 1s; }
+  ul li:nth-child(3) a {
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    animation-duration: 1.5s; }
+  ul li:nth-child(4) a {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    animation-duration: 2s; }
   ul a {
+    color: #fff;
     display: block;
     padding: 20px 0;
     text-transform: uppercase;
@@ -212,9 +229,17 @@ ul {
       text-transform: uppercase;
       font-weight: 300;
       letter-spacing: 10px;
-      font-size: 3.5em; }
+      font-size: 3.5em;
+      margin-left: 20px;
+      margin-right: 20px;
+      -webkit-animation-delay: 1s;
+      -moz-animation-delay: 1s;
+      animation-delay: 1s; }
     .top_wrapper .top_text p {
-      margin-top: -5px; }
+      margin-top: -5px;
+      -webkit-animation-delay: 1.5s;
+      -moz-animation-delay: 1.5s;
+      animation-delay: 1.5s; }
 
 .h_opacify {
   opacity: 0.3;

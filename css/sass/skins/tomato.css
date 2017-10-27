@@ -19,7 +19,8 @@ body .main_footer {
   border-color: #FF6347; }
 
 .bg_light {
-  background-color: #FAFAFA; }
+  background-color: #FAFAFA;
+  opacity: 1; }
 
 .bg_dark {
   background-color: #222;

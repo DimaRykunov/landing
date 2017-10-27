@@ -169,7 +169,17 @@ li
 ul
 	margin-top: 180px
 	text-align: center
+	li
+		&:nth-child(1) a
+			+animation-duration(.5s)
+		&:nth-child(2) a
+			+animation-duration(1s)
+		&:nth-child(3) a
+			+animation-duration(1.5s)
+		&:nth-child(4) a
+			+animation-duration(2s)
 	a
+		color: #fff
 		display: block
 		padding: 20px 0
 		text-transform: uppercase
@@ -198,7 +208,6 @@ ul
 			vertical-align: middle
 	.top_text
 		display: inline-block
-
 		h1
 			display: inline-block
 			padding: 10px 10px
@@ -210,9 +219,13 @@ ul
 			font-weight: 300
 			letter-spacing: 10px
 			font-size: 3.5em
+			margin-left: 20px
+			margin-right: 20px
+			+animation-delay(1s)
 			// box-shadow: rgba(0,0,0,.3) 0 0 0 1000px
 		p
 			margin-top: -5px
+			+animation-delay(1.5s)
 .h_opacify
 	opacity: .3
 	+transition(all .25 ease)
