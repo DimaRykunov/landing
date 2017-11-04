@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
     <link rel="stylesheet" href="libs/animate/animate.min.css" />
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" /> -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="libs/linea/styles.css" />
     <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
-    <link rel="stylesheet" href="css/css/main.css" />
+    <link rel="stylesheet" href="css/sass/main.css" />
     <link rel="stylesheet" href="css/sass/skins/tomato.css" />
     <link rel="stylesheet" href="css/media.css" />
 </head>
@@ -80,6 +81,34 @@
         <div class="section_content">
             <div class="container">
                 <div class="row">
+                  <div class="col-md-4 push-md-4 animation_1">
+                    <h3>Фото</h3>
+                    <div class="person">
+                      <a href="img/person.jpg" class="popup"><img src="img/person.jpg" alt="Alt"></a>
+                    </div>
+                  </div>
+                  <div class="col-md-4 pull-md-4 animation_2">
+                    <h3>Немного о себе</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint </p>
+                  </div>
+                  <div class="col-md-4 animation_3">
+                    <h3>Персональная информация</h3>
+                    <h2 class="personal_header">Dmitriy Rykunov</h2>
+                    <ul>
+                      <li>Создание сайтов, HTML верстка, посадка на CMS WordPress</li>
+                      <li>Дата рождения: 25 мая 1997 года</li>
+                      <li>Номер телефона: +375 29 999 99 99</li>
+                      <li>E-mail: dmitriy.viktorovich@hotmail.com</li>
+                    </ul>
+                    <div class="social_wrap">
+                      <ul>
+                        <li><a style="none" href="#"> <i class="fa fa-twitter"></i></a></li>
+                        <li><a style="none" href="#"> <i class="fa fa-vk"></i></a></li>
+                        <li><a style="none" href="#"> <i class="fa fa-facebook"></i></a></li>
+                        <li><a style="none" href="#"> <i class="fa fa-github"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
             </div>
         </div>
@@ -130,21 +159,6 @@
         </div>
     </section>
 
-    <!-- <section id="about" class="s_contacts bg_light">
-        <div class="section_header">
-            <h2>Контакты</h2>
-            <div class="s_descr_wrap">
-                <div class="s_descr">Оставьте ваше сообщение </div>
-            </div>
-        </div>
-        <div class="section_content">
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <footer class="main_footer bg_dark">
         <div class="container">
             <div class="row">
@@ -164,6 +178,7 @@
 	<![endif]-->
 
     <script src="libs/jquery/jquery-2.1.3.min.js"></script>
+    <!-- <script src="libs/jquery/jquery-3.2.1.js"></script> -->
     <script src="libs/magnific-popup/jquery.magnific-popup.js"></script>
     <script src="libs/animate/animate-css.js"></script>
     <script src="libs/parallax/parallax.min.js"></script>

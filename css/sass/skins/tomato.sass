@@ -12,11 +12,12 @@ body
 	color: $main_color
 	+kerning(1)
 
-a
-	color: $color
+// a
+// 	color: $color
 
 p,
-body .main_footer
+body .main_footer,
+s.about li
 	color: $text_color
 
 .color_element
@@ -33,8 +34,8 @@ body .main_footer
 	color: #fff
 	.s_descr::after
 		background-color: #fff
-	a
-		color: #fff
+	// a
+	// 	color: #fff
 svg
 	path
 		fill: rgba(255,255,255,.6)
@@ -59,3 +60,20 @@ svg
 	+kerning(5)
 	&::after
 		background-color: $main_color
+.social_wrap
+	margin-top: 25px
+	a
+		color: $color
+		opacity: 1
+section
+	h3
+		+kerning(3)
+		color: $text_color
+	ul
+		li
+			color: $text_color
+			a
+				color: $color
+.s_about
+	p:nth-child(even)
+		color: $color
