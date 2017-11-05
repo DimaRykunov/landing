@@ -12,6 +12,11 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+  .section_content .resume_container .float-left,
+  .section_content .resume_container .float-left h3,
+  .resume_container .float-left .resume_icon{
+    text-align: left;
+    margin-bottom: 10px;
 
 }
 
@@ -45,11 +50,14 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+  .personal_last_block{
+    margin-top: 35px;
+  }
 }
 
  /* Large Devices, Wide Screens */

@@ -77,3 +77,18 @@ section
 .s_about
 	p:nth-child(even)
 		color: $color
+
+.resume_container
+	h3
+		color: $main_color
+		+kerning(1)
+	.float-left strong
+		margin-left: 10px
+	.float-right strong
+
+.resume_item
+	.year
+		background-color: $color
+		color: #fff
+	.resume_description
+		+kerning(1)

@@ -8,6 +8,8 @@ $(document).ready(function() {
     $(".top_text h1").animated("fadeInDown", "fadeOutUp");
     $(".top_text p, .section_header").animated("fadeInUp", "fadeOutDown");
 
+    $(".float-left .resume_item").animated("fadeInLeft", "fadeOutLeft");
+    $(".float-right .resume_item").animated("fadeInRight", "fadeOutRight");
     var waypoints = $('#handler-first').waypoint(function(direction) {
         notify(this.element.id + ' hit 25% from top of window')
     }, {

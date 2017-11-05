@@ -179,33 +179,42 @@ $fivty: 1%
   display: none
 ul,
 li
-  list-style-type: none
+  list-style: none
   padding: 0
   margin: 0
-  text-align: left
-  li
-    &:nth-child(1) a
-      +animation-duration(.5s)
-    &:nth-child(2) a
-      +animation-duration(1s)
-    &:nth-child(3) a
-      +animation-duration(1.5s)
-    &:nth-child(4) a
-      +animation-duration(2s)
-  a
-    color: #fff
-    display: block
-    padding: 20px 0
-    text-transform: uppercase
-    text-decoration: none
-    font-size: 12px
-    opacity: 1
-    height: 60px
-    position: relative
-    transition: .5s ease
-    &:hover
-      background-color: rgba(255,255,255,.05)
+
+
+.top_menu
+  ul
+    margin-top: 180px
+    text-align: center
+    li
+      &:nth-child(1) a
+        +animation-duration(.5s)
+      &:nth-child(2) a
+        +animation-duration(1s)
+      &:nth-child(3) a
+        +animation-duration(1.5s)
+      &:nth-child(4) a
+        +animation-duration(2s)
+    a
+      color: #fff
+      display: block
+      padding: 20px 0
+      text-transform: uppercase
+      text-decoration: none
+      font-size: 12px
+      opacity: 1
+      height: 60px
+      position: relative
       transition: .5s ease
+      &:hover
+        background-color: rgba(255,255,255,.05)
+        transition: .5s ease
+.personal_last_block
+
+  ul
+    margin-top: 0
 .top_wrapper
   display: table
   width: 100%
@@ -250,6 +259,7 @@ li
   font-weight: 400
 .person
   text-align: center
+  margin-bottom: 35px
   img
     max-width: 220px
     display: inline-block
@@ -259,3 +269,39 @@ li
     display: inline-block
     font-size: 20px
     padding: 0 3px
+
+.resume_container
+  .float-left
+    text-align: right
+    border-right: 1px solid #d2d2d2
+    h3
+      text-align: right
+      font-size: 16px
+      font-weight: 400px
+  .float-right
+    text-align: left
+    h3
+      text-align: left
+.resume_icon
+  font-size: 40px
+  margin-bottom: 35px
+
+.resume_item
+  margin-bottom: 30px
+  &:last-child
+    margin-bottom: 0
+  .year
+    font-weight: 600
+    font-style: italic
+    display: inline-block
+    margin-bottom: 10px
+    padding: 0 10px
+  font-style: italic
+  p
+    margin-top: 10px
+  strong
+    font-style: normal
+    text-transform: uppercase
+    text-transform: uppercase
+  .resume_description
+    font-style: italic

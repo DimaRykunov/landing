@@ -183,32 +183,30 @@ svg {
 
 ul,
 li {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
-  margin: 0;
-  text-align: left; }
-  ul li:nth-child(1) a,
-  li li:nth-child(1) a {
+  margin: 0; }
+
+.top_menu ul {
+  margin-top: 180px;
+  text-align: center; }
+  .top_menu ul li:nth-child(1) a {
     -webkit-animation-duration: 0.5s;
     -moz-animation-duration: 0.5s;
     animation-duration: 0.5s; }
-  ul li:nth-child(2) a,
-  li li:nth-child(2) a {
+  .top_menu ul li:nth-child(2) a {
     -webkit-animation-duration: 1s;
     -moz-animation-duration: 1s;
     animation-duration: 1s; }
-  ul li:nth-child(3) a,
-  li li:nth-child(3) a {
+  .top_menu ul li:nth-child(3) a {
     -webkit-animation-duration: 1.5s;
     -moz-animation-duration: 1.5s;
     animation-duration: 1.5s; }
-  ul li:nth-child(4) a,
-  li li:nth-child(4) a {
+  .top_menu ul li:nth-child(4) a {
     -webkit-animation-duration: 2s;
     -moz-animation-duration: 2s;
     animation-duration: 2s; }
-  ul a,
-  li a {
+  .top_menu ul a {
     color: #fff;
     display: block;
     padding: 20px 0;
@@ -219,10 +217,12 @@ li {
     height: 60px;
     position: relative;
     transition: 0.5s ease; }
-    ul a:hover,
-    li a:hover {
+    .top_menu ul a:hover {
       background-color: rgba(255, 255, 255, 0.05);
       transition: 0.5s ease; }
+
+.personal_last_block ul {
+  margin-top: 0; }
 
 .top_wrapper {
   display: table;
@@ -274,7 +274,8 @@ li {
   font-weight: 400; }
 
 .person {
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 35px; }
   .person img {
     max-width: 220px;
     display: inline-block;
@@ -284,5 +285,41 @@ li {
   display: inline-block;
   font-size: 20px;
   padding: 0 3px; }
+
+.resume_container .float-left {
+  text-align: right;
+  border-right: 1px solid #d2d2d2; }
+  .resume_container .float-left h3 {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400px; }
+.resume_container .float-right {
+  text-align: left; }
+  .resume_container .float-right h3 {
+    text-align: left; }
+
+.resume_icon {
+  font-size: 40px;
+  margin-bottom: 35px; }
+
+.resume_item {
+  margin-bottom: 30px;
+  font-style: italic; }
+  .resume_item:last-child {
+    margin-bottom: 0; }
+  .resume_item .year {
+    font-weight: 600;
+    font-style: italic;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0 10px; }
+  .resume_item p {
+    margin-top: 10px; }
+  .resume_item strong {
+    font-style: normal;
+    text-transform: uppercase;
+    text-transform: uppercase; }
+  .resume_item .resume_description {
+    font-style: italic; }
 
 /*# sourceMappingURL=main.css.map */
