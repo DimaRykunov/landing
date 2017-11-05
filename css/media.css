@@ -27,6 +27,18 @@
     letter-spacing: 7px;
     margin-right: 15px;
   }
+  .main_footer{
+    text-align: left;
+  }
+  .main_footer .social_wrap {
+    float: left;
+    margin-top: 20px;
+    
+    width: 100%;
+  }
+  .main_footer .social_wrap ul{
+
+  }
 }
 
 /* Custom, iPhone Retina */
