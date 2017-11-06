@@ -66,7 +66,8 @@ $(document).ready(function() {
   		$(this).find("a").attr("href", "#work_" + i);
       $(this).find(".port_descr").attr("id", "work_" + i);
   	});
-
+$(function () { $("input,select,textarea").jqBootstrapValidation(); } );
+$(".top_menu ul a").mPageScroll2id();
 });
 $(window).on('load', function() {
   $('.loader_inner').fadeOut();

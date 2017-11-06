@@ -299,7 +299,9 @@ li {
 .resume_container .float-right {
   text-align: left; }
   .resume_container .float-right h3 {
-    text-align: left; }
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400px; }
 
 .resume_icon {
   font-size: 40px;
@@ -395,5 +397,40 @@ li {
 
 .modal-box-content {
   position: relative; }
+
+.contact_box {
+  margin-bottom: 30px; }
+  .contact_box h3 {
+    text-align: left;
+    color: #000;
+    margin-bottom: 0;
+    font-size: 14px; }
+  .contact_box .contacts_icon {
+    font-size: 30px; }
+  .contact_box p {
+    margin-top: 30px; }
+
+.main_form button {
+  margin-top: 10px;
+  float: right;
+  border: none;
+  line-height: 40px;
+  padding: 0 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 500; }
+
+.form-group {
+  display: block;
+  margin-bottom: 20px; }
+  .form-group input,
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    line-height: 40px;
+    text-indent: 12px;
+    font-size: 12px; }
 
 /*# sourceMappingURL=main.css.map */
